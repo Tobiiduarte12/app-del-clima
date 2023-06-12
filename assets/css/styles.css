@@ -163,3 +163,30 @@ body {
     opacity: 1;
   }
 }
+
+footer {
+  width: 100%;
+  background-color: #141516b4;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-top: 1px solid white;
+}
+
+footer p {
+  width: 90%;
+  text-align: center;
+}
+
+footer p a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer p span:hover,
+footer p a:hover {
+  color: #51ff00;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
