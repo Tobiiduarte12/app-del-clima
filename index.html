@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El clima hoy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <h1 class="title__search">El clima en...</h1>
+        <form id="form">
+          <button class="btn-submit" type="submit">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+          </button>
+          <input
+            type="text"
+            name="city"
+            autocomplete="off"
+            placeholder="Buscar Ciudad"
+            class="input__search"
+          />
+        </form>
+      </div>
+      <p class="enter__city">Ingrese una ciudad...</p>
+
+      <!-- ****** card ***** -->
+      <section class="card__container"></section>
+    </div>
+    <script src="./assets/request.js"></script>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
